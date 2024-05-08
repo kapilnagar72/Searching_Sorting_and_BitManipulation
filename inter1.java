@@ -25,6 +25,7 @@ public class inter1 {
         return result;
 
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of element in arrays");
@@ -32,7 +33,7 @@ public class inter1 {
 
         int arr[] = new int[n];
         System.out.println("Enter the arrays element ");
-         
+
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
@@ -40,18 +41,18 @@ public class inter1 {
         int target = sc.nextInt();
 
         int result = finalFirstOccurrence(arr, target);
-        
+
         if (result == -1) {
             System.out.println("target element are not present in arrays.");
             //if (result != -1) {
-              //  System.out.println("target element are present in arrays");
-                
-            }
-            else{
-                System.out.println("target element are finalFisrtOccurrence: "+result);
-            }
-            sc.close();
+            //  System.out.println("target element are present in arrays");
+
+        } else {
+            System.out.println("target element are finalFisrtOccurrence: " + result);
         }
+       sc.close();
+    }
+        
     
     }
 
