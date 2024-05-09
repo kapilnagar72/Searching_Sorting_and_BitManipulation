@@ -1,5 +1,10 @@
 package Searching_Sorting_and_BitManipulation;
 
+/*
+  Q1. Given an array. Find the number X in the array. If the element is present, return the index of the element,
+else print “Element not found in array”.
+Input the size of array, array from user and the element X from user. Use Linear Search to find the element.
+ */
 import java.util.Scanner;
 
 public class Assign1 {
