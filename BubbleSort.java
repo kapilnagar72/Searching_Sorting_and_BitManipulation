@@ -3,7 +3,7 @@ package Searching_Sorting_and_BitManipulation;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void BubbleSort(int [] arr) {
+    public static void bubbleSort(int [] arr) {
         for (int i = 0; i < arr.length; i++) {
             boolean swapped = false;
             for (int j = 0; j < arr.length - i - 1; j++) {
@@ -23,7 +23,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = { 20, 50, 10, 12, 45, 67, 90 };
-        BubbleSort(arr);
+        bubbleSort(arr);
         System.out.println("Sorted array is:");
         System.out.println(Arrays.toString(arr));
     }
